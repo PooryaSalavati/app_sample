@@ -1,0 +1,50 @@
+#register{
+    width: 500px;
+    height: 280px;
+    border-radius: 1rem;
+    margin: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #fff;
+    padding: 14px;
+}
+
+.text-field{
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Vazir";
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 14px;
+}
+
+.text-field input[type="text"]:focus {
+    outline: none;
+    border-color: #007bff;
+  }
+
+.heading-register h4{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 18;
+    font-weight: bold;
+    background-color: #fff;
+}
+
+.btn{
+  margin: -200px 200px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Vazir";
+}
